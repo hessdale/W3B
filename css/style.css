@@ -1,0 +1,26 @@
+img {
+    height: 50%;
+}
+header {
+    display: grid;
+    grid-auto-flow: column;
+
+}
+#rightcell {
+    justify-self: right;
+}
+#logo {
+    justify-self: left;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.invisible {
+    color: transparent;
+}
