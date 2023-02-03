@@ -1,26 +1,40 @@
 img {
-    height: 50%;
+    height: 80%;
 }
+
 header {
     display: grid;
     grid-auto-flow: column;
-
+    justify-self: center;
+    align-items: center;
 }
+
 #rightcell {
     justify-self: right;
 }
+
 #logo {
     justify-self: left;
+    height: 40%;
+    width: 30%;
 }
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+    align-items: center;
 }
+
+p {
+    width: 80%;
+}
+
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
 .invisible {
     color: transparent;
 }
